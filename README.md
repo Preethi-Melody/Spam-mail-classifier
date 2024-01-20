@@ -1,9 +1,3 @@
-<h1 align = "center"> Spam Classifier </h1>
-<p align="center"> 
-<img src="gif/spam-classifier.gif" alt="Animated gif of spam clasffication" height="382px">
-</p>
-I have developed a spam classifier program in Python which classifies given emails as spam or ham using Multilayer Perceptron (MLP).
-
 <h2> Overview</h2>
 <p>
 This Python program implements a spam classifier using a Multilayer Perceptron (MLP) model. The classifier is trained to classify emails as either spam or ham (non-spam) using the <a href="https://spamassassin.apache.org/old/publiccorpus/">Apache SpamAssassin public data</a>. The MLP model is chosen for its high efficacy in terms of precision and recall. The program is designed to be easily executable without any additional files or dependencies, as the required files will be automatically downloaded by the included Jupyter notebook.
@@ -25,15 +19,7 @@ The project includes the following files:
   <li><b>confusion_matrix.png</b> - Visual representation of the Confusion Matrix for the final results.</li>
 </ul>
 
-<h2>Multilayer Perceptron (MLP)</h2>
-<p>
-The MLP is a type of Artificial Neural Network (ANN) architecture, originally invented by Frank Rosenblatt in 1957. It is based on an artificial neuron called a Threshold Logic Unit (TLU) or Linear Threshold Unit (LTU). In an MLP, the inputs and outputs are numerical values, and each input connection is associated with a weight. The TLU computes a weighted sum of its inputs, applies a step function to the sum, and outputs the result. The MLP consists of one input layer, one or more hidden layers of TLUs, and a final output layer of TLUs. Each layer, except the output layer, includes a bias neuron and is fully connected to the next layer.
-</p>
-<p align="center"> 
-<img src="Images/MLP.jpeg" alt="Multilayer Perceptron" width="430px" height="300px">
-</p>
-
-<h2>Development Stages</h2>
+<h2>Pipeline</h2>
 <p>
 The development of the spam classifier program follows the following stages, as outlined in the attached Jupyter Notebook:
 </p>
@@ -64,11 +50,3 @@ The development of the spam classifier program follows the following stages, as 
   <img src="https://github.com/scikit-learn/scikit-learn/blob/main/doc/logos/scikit-learn-logo-notext.png" alt="scikit-learn" width="90" height="50"/>
   <img src="Images/matplotlib_logo.png" alt="matplotlib-logo" width="150" height="50"/>
 </p>
-
-<h2> Dependencies</h2>
-<ul>
-  <li> NumPy v1.16.2 </li>
-  <li> Scikit-Learn v0.20.3 </li>
-  <li> Matplotlib v3.0.2 </li>
-  <li> Joblib v0.13.2 </li>
-</ul>
